@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="200dp"
+    android:id="@+id/linearLayout"
+    android:layout_height="160dp"
+    android:layout_marginLeft="10dp">
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:riv_corner_radius="5dp"
+            android:id="@+id/category_image"
+            app:riv_mutate_background="true"
+            android:background="@drawable/image_loading" />
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.3"
+            app:riv_corner_radius="5dp"
+            android:layout_marginTop="-160dp"
+            app:riv_mutate_background="true"
+            android:background="@color/colorBlack" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:text="Pratha items"
+            android:id="@+id/category_name"
+            android:textColor="@color/colorWhite"
+            android:textSize="18dp"
+            android:layout_marginTop="-30dp" />
+</LinearLayout>
